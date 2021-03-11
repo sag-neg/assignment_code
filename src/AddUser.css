@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color: #FFFFFF;
+  }
+  
+  input[type="email"], input[type="email"] {
+    width: 100%;
+    background-color: lightgrey;
+    border: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    background-color: lightgrey;
+    border: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+ 
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  
+  
+  form {
+    font-family:Arial;
+    width: auto;
+    margin: 0 auto;
+    background-color: #78ffd6;
+    padding: 2rem;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+    border-top: 5px solid steelblue;
+  }
+  
+  .myButton {
+    border: 0;
+      background-color:#eb675e;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-size:15px;
+      padding:10px 20px;
+      text-decoration:none;
+  }
